@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "9"
+
+install: true
+script: true
+
+deploy:
+  provider: firebase
+  token:
+    secure: "PwGlfMF8eJ/5TnsjVrrgCPIBeevbPqPV/nNOh4i78XXC+cq3gg126WQ1GjUuAFvRsmEFthw2sS42+S8MoVrzk6fhXcKd75Jcmb3Bldye4xk0PxoPt6AxfW17rXsv9kpQdtpZhkIzMv541qj5gR6JYwpRnF5sPx2Sx0L6ze6fZC5yL6qjtDvfFDoiKlARQ11L1yxw+B8JxmXzyzi2lpoZ7HTRGc49NoOALA+rBLwsdzBOIPLXwn2hDfLEN6gdhb6aC6hiqZLwI+vtCyYTKOQalvcEMBmSGNIaX47HIeA1YA/I5oRIQPvaHfU8SL0dSajchGV++RCsVwrkwIp90tzo1sX0dSwmbNfN5uHqCnli4IoUWoRU45NpfMZdSxz2/fZ7fkgElppBgaNgXbjnvc2n5x13UQXKP1q62Ddkj4eoZ18GdfzuWGmZEbXDFtNlMxCw5dLTNCv5mjUD4WMMns8DlljVStLGgHuToy4GgEax+O8UrQKCZy9tDZm+azhgNI/qH8HYDL95T9vCBOss3TH9cD1EHhfJVludmn0MpEP9aMqjwG/80wnkhFaofu5wFPD+20e1xTRgAt+zTP6+dqlL+AQtnwnNJHBNrvavrx9b3TAhC4rNqlsqBv3GczY7HWIsYC1kscALT3Hfx5cIya25dnp2GcQrwV2BGIfWc3Bo8pM="
