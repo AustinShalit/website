@@ -11,6 +11,21 @@
         "source": "**",
         "destination": "index.html"
       }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(gpg|keys)",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain; charset=utf-8"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=0, private, must-revalidate"
+          }
+        ]
+      }
     ]
   }
 }
