@@ -6,10 +6,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
+    "redirect": [
       {
-        "source": "**/*",
-        "destination": "/index.html"
+        "source": "**",
+        "destination": "/index.html",
+        "type": 404
       }
     ],
     "headers": [
