@@ -9,8 +9,7 @@
     "redirect": [
       {
         "source": "**",
-        "destination": "/index.html",
-        "type": 404
+        "destination": "/index.html"
       }
     ],
     "headers": [
