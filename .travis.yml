@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-- '9'
-install: true
-script: true
-deploy:
-  provider: firebase
-  token:
-    secure: "AxtWm5yyx+cJALV7Hml37+g9yB+gc6T7L6dZc33Mt5vFIDAMqkBHmYASsR54kPsdqkSEcje3NYd/aVgm2NYH+NK5l5rkeW95/1E5cy/kJNIcBxmqNonhUZpdmC0emFnL5W69naSkR0+nfh3SZWTT+3fILO5iPKkEWj7nF+mN44mmSSVxCVHdEcGMzc3UFf5Qt4FntRj6TgpoGdUw14uXouCpiy2qEroUJdGEhwi/RbgJoUXoxUcMs9lTZoECZv5pOgTzPwA+daI4OUqsX7ZMwIoQiHR4fyVTYYnNwL7ChYIhgZuOLAEwh4VfemCv82QsjHYllCYYOc20pEitNSlmNxou7F//AvO6MtElc7nXhCQft3JPV2fOeIEGJwxoQs6AGo9VOxtfGa/qNBD9lTTBWjh3CVWptc3TulHqcEtI8+oXxZQYIX442qOKX8+BbEJDnF4ac3Ya74N3f9u/TlQay64GYpodsTF1mTOZoqNoL1enYvCb0XXAap3Iel7zSDE41eBMCUdOEm51jR/MGh8e4Om/NXtsDT4kBUH1YidXSGE9Ph9747/FCM7VHvjQeWvHmGRM9fzKdT61/ZEhjjOLQ9uMQGD1LCGQEf98ZPgXZ02u2MISUguqvGw18il5kWibzX1lwq/TfmyFXJg6Jd9sv8SpnC4yp+i+DvDDExYoQZc="
